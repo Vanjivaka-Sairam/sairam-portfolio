@@ -16,8 +16,8 @@ const App = () => {
           <nav>
             <ul className="flex justify-center space-x-8">
               <li><Link to="about" smooth={true} duration={500} className="text-white hover:text-blue-400 transition-colors duration-300 cursor-pointer">About</Link></li>
-              <li><Link to="skills" smooth={true} duration={500} className="text-white hover:text-blue-400 transition-colors duration-300 cursor-pointer">Skills</Link></li>
               <li><Link to="projects" smooth={true} duration={500} className="text-white hover:text-blue-400 transition-colors duration-300 cursor-pointer">Projects</Link></li>
+              <li><Link to="skills" smooth={true} duration={500} className="text-white hover:text-blue-400 transition-colors duration-300 cursor-pointer">Skills</Link></li>
               <li><Link to="contact" smooth={true} duration={500} className="text-white hover:text-blue-400 transition-colors duration-300 cursor-pointer">Contact</Link></li>
             </ul>
           </nav>
@@ -26,8 +26,8 @@ const App = () => {
           <Route path="/" element={<>
             <Element name="home"><Home /></Element>
             <Element name="about"><About /></Element>
-            <Element name="skills"><Skills /></Element>
             <Element name="projects"><Projects /></Element>
+            <Element name="skills"><Skills /></Element>
             <Element name="contact"><Contact /></Element>
           </>} />
         </Routes>
