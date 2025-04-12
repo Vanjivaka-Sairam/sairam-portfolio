@@ -1,13 +1,28 @@
+import React from 'react';
+
 const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
-      <div id="about" className="text-center mt-20">
-        <h2 className="text-4xl font-bold mb-2">Hello, It's Me</h2>
-        <h3 className="text-6xl font-bold mb-4">[Your Name]</h3>
-        <h4 className="text-2xl text-blue-400 mb-4">And I'm a Frontend Developer</h4>
-        <p className="text-lg max-w-md mx-auto mb-6">I am a passionate developer with a love for creating beautiful and functional web applications. My journey in tech 
-          started with a curiosity for how things work and has grown into a fulfilling career.</p>
-        <a href="../assets/Sairam_Vanjivaka_CV.pdf" download className="mt-6 px-10 py-4 bg-blue-500 text-white text-lg font-semibold rounded-full hover:bg-blue-600 hover:shadow-lg transition-transform transform hover:scale-105">Download CV</a>
+    <div className="min-h-screen flex items-center justify-center text-center text-white">
+      <div className="max-w-3xl px-4">
+        <h2 className="text-4xl font-bold mb-4 text-blue-400">Hi there! 👋</h2>
+        <h1 className="text-6xl font-bold mb-6">I'm Vanjivaka Sairam</h1>
+        <div className="text-2xl font-semibold mb-6 text-gray-300">
+          Full Stack Developer & AI/ML Enthusiast
+        </div>
+        <p className="text-lg leading-relaxed mb-8 text-gray-400 max-w-2xl mx-auto">
+          Pre-final year undergraduate at Indian Institute of Technology, Ropar. 
+          Passionate about building innovative web solutions and exploring the frontiers 
+          of artificial intelligence and machine learning.
+        </p>
+        <div className="flex justify-center gap-4">
+        <a 
+  href="/assets/Sairam_Vanjivaka_CV.pdf"
+  download="Sairam_Vanjivaka_CV.pdf"
+  className="px-6 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-all duration-300 font-semibold"
+>
+  Download CV
+</a>
+        </div>
       </div>
     </div>
   );
