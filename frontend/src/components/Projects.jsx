@@ -5,7 +5,7 @@ const Project = ({ title, description, github }) => {
     <div className="mb-4 p-4 bg-gray-700 rounded-lg">
       <h2 className="text-2xl font-bold text-white mb-2">{title}</h2>
       <p className="text-gray-300 mb-2">{description}</p>
-      <a href={github} className="text-blue-400 hover:text-blue-300">GitHub</a>
+      <a href={github} className="text-blue-400 hover:text-blue-300 font-semibold transition-colors duration-300">GitHub</a>
     </div>
   );
 };
