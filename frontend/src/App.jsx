@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Skills from './components/Skills'
 import { Link, Element } from 'react-scroll'
+import ChatbotEmbed from './components/ChatbotEmbed'
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
             <Element name="contact"><Contact /></Element>
           </>} />
         </Routes>
+        <ChatbotEmbed />
       </div>
     </Router>
   )
