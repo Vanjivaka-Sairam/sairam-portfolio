@@ -10,7 +10,7 @@ import ChatbotEmbed from './components/ChatbotEmbed'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={import.meta.env.PROD ? "/sairam-portfolio" : "/"}>
       <div className="bg-gray-900 min-h-screen">
         <header className="absolute top-0 left-0 w-full p-4 bg-gray-800 shadow-md">
           <nav>
