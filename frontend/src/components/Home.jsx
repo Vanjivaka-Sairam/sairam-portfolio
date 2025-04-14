@@ -16,7 +16,7 @@ const Home = () => {
         </p>
         <div className="flex justify-center gap-4">
         <a 
-  href="/sairam-portfolio/assets/Sairam_Vanjivaka_CV.pdf"
+  href={`${import.meta.env.BASE_URL}assets/Sairam_Vanjivaka_CV.pdf`}
   download="Sairam_Vanjivaka_CV.pdf"
   className="px-6 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-all duration-300 font-semibold"
 >
@@ -28,4 +28,4 @@ const Home = () => {
   );
 };
 
-export default Home; 
+export default Home;
